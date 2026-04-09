@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>植&nbsp;&nbsp;&nbsp;&nbsp;物&nbsp;&nbsp;&nbsp;&nbsp;列&nbsp;&nbsp;&nbsp;&nbsp;表</h1>
-        <input placeholder="请输入要查询的水果：" v-model="string">
+        <input placeholder="请输入要查询的植物：" v-model="string">
         <ul type="none">
             <li v-for="plant in filterlist" :key="plant.name">
                 <p>{{ plant.name }}</p>
